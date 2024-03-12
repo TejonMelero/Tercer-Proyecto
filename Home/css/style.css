@@ -1,0 +1,177 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*,*,:before,*:after{
+    box-sizing: inherit;
+}
+/**Globales**/
+
+body{
+    
+    font-size: 1.6rem;
+    line-height: 1.5rem;
+    display: grid;
+    
+}
+.boton{
+    text-align: right;
+    
+    
+.boton1{
+  border: none; 
+  color: black; 
+  padding: 14px 28px; 
+  cursor: pointer; 
+  border-radius: 5px; 
+  background-color:#fafb05;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+}
+ .navegacion__enlace1{
+    background-color: #fafb05;
+    padding: 2rem 6rem;
+    text-align: right;
+    border-radius: 0%;
+    background-color: #9c27b0;
+ }  
+ @media (min-width: 768px){
+ .dos-parrafos{
+    display: flex;
+    flex: auto;
+    column-gap: 4rem;
+ }
+ }
+p{
+    font-size: 1.2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    border: none;
+    padding: .5rem;
+    line-height: 2.5rem;
+    text-align: left;
+    
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    
+}
+.contenedor {
+    max-width: 120rem;
+    margin: auto;
+}
+h1, h2,h3{
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-size: 3rem;
+    padding: 2rem;
+}
+
+/**header**/
+
+.header{
+    display: flex;
+    justify-content: left;
+}
+.header__logo{
+    margin: .5rem 0;
+    height: 80px;
+    
+}
+.cta-0{
+    text-align: center;
+    width: auto;
+    height: 100px;
+    padding: 2rem 0;
+    margin: .5rem;
+    border-radius: 2rem;  
+   
+}
+.cta-2{
+    
+}
+.cta-3{
+
+}
+.cta-2,
+.cta-3{
+    border: none; 
+    color: black; 
+    padding: 14px 28px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    background-color: #ff9800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.video1{
+background-color: white;
+position: center;
+top: 8px;
+text-align: center;    
+}
+.Video{
+    border: none; 
+    color: black; 
+    padding: 14px 28px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    background-color: #ff9800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    position: relative;
+    top: 20;
+}
+
+.footer{
+    text-align: center;
+    background-color: black;
+    padding: 0px 0 0px;
+    height: auto;
+}
+
+/**footer**/
+.parrafo{
+    text-align: center;
+    color: azure;
+}
+
+/**navegacion**/
+.navegacion{
+    
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    background-color: #E5E8E8;
+}
+.navegacion__enlace{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    font-size: 2.5rem;
+}
+.navegacion__enlace:hover{
+color:#ffce00;
+}
+/**grid**/
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+@media (min-width:768px){
+    .grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+
+
+
+
